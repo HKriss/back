@@ -1,0 +1,41 @@
+@import "_minix.scss";
+@import "common.scss";
+.wrap {
+    width: 100%;
+    height: 100%;
+    font-size: pxTorem(14px);
+    overflow: hidden;
+    position: relative;
+    .list {
+        width: 100%;
+        h2 {
+            width: 100%;
+            height: pxTorem(30px);
+            line-height: pxTorem(30px);
+            background: #ccc;
+            font-weight: bold;
+        }
+        li {
+            height: pxTorem(44px);
+            line-height: pxTorem(44px);
+            @include setBottomLine(pink);
+        }
+    }
+    .sub {
+        width: pxTorem(100px);
+        position: absolute;
+        right: pxTorem(2px);
+        top: pxTorem(30px);
+        p {
+            width: pxTorem(20px);
+            height: pxTorem(20px);
+            background: palegoldenrod;
+            line-height: pxTorem(20px);
+            text-align: center;
+            font-size: pxTorem(13px);
+            color: blue;
+            border-radius: 50%;
+            margin: pxTorem(3px);
+        }
+    }
+}

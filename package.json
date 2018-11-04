@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-uglify": "^3.0.1"
+  },
+  "scripts": {
+    "start": "gulp dev"
+  }
+}
